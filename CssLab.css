@@ -1,0 +1,25 @@
+/* Snuffy Linder and Tom Harren    Lab 2*/
+
+body {
+    background-color:seashell;
+    color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+#block1 {
+    width: 90%;
+    background-color: coral;
+    color: darkblue;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#header_image {
+    width: 25%;
+    height: 25%;
+    border: dashed;
+}
