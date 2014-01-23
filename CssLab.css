@@ -1,7 +1,7 @@
 /* Snuffy Linder and Tom Harren    Lab 2*/
 
 body {
-    background-color:seashell;
+    background-color: #B25B4E;
     color: dimgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,18 +13,37 @@ body {
 #block1 {
     font-family: Arial;
     width: 90%;
-    background-color: coral;
-    color: darkblue;
+    height: 280px;
+    background-color: #FF5F49;
+    color: blanchedalmond;
     font-size:xx-large;
     margin-left: 50px;
     margin-right: 100px;
+    text-align: center;
 }
 
 #header_image {
     float:left;
-    width: 25%;
-    height: 25%;
+   height: 90%;
     padding: 3px;
-    margin: 10px;
+    margin: 8px;
     border: dashed;
+}
+
+#sidebar {
+    font-family: Arial;
+    width: 15%;
+    background-color: blanchedalmond;
+    color: darkblue;
+    font-size:xx-large;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: left;
+
+.body_blocks {
+    background-color:lightsalmon;
+}
+
+.links{
+
 }
