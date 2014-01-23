@@ -32,6 +32,7 @@ body {
 
 #sidebar {
     font-family: Arial;
+    float: left;
     width: 15%;
     background-color: blanchedalmond;
     color: darkblue;
@@ -47,7 +48,7 @@ body {
     padding: 15px;
     width: 80%;
     background-color:lightsalmon;
-    float: left;
+    float: right;
 }
 
 .links{
