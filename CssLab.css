@@ -11,7 +11,8 @@ body {
 
 
 #block1 {
-
+    font-family: Arial;
+    font: ;
     width: 90%;
     background-color: coral;
     color: darkblue;
