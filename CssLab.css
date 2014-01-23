@@ -10,7 +10,7 @@ body {
 
 
 
-#block1 {
+#header {
     font-family: Arial;
     width: 90%;
     height: 280px;
@@ -24,7 +24,7 @@ body {
 
 #header_image {
     float:left;
-   height: 90%;
+    height: 90%;
     padding: 3px;
     margin: 8px;
     border: dashed;
@@ -39,11 +39,19 @@ body {
     margin-left: 50px;
     margin-right: 100px;
     text-align: left;
+}
+
+
 
 .body_blocks {
+    padding: 15px;
+    width: 80%;
     background-color:lightsalmon;
+    float: left;
 }
 
 .links{
-
+    padding: 10px;
+    color: darkblue;
+    font-size:medium;
 }
