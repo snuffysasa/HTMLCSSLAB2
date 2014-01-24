@@ -6,8 +6,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
+#sidebar, .body_blocks{
+    margin-top: 50px;
+}
 
 
 #header {
@@ -34,25 +35,31 @@ body {
     font-family: Arial;
     float: left;
     width: 15%;
+    min-width: 210px;
     background-color: blanchedalmond;
     color: darkblue;
     font-size:xx-large;
     margin-left: 50px;
-    margin-right: 100px;
     text-align: left;
+
+}
+
+#sound_info{
+max-width: 300px;
 }
 
 
-
 .body_blocks {
+    margin-left: 50px;
     padding: 15px;
-    width: 80%;
     background-color:lightsalmon;
-    float: right;
+    float: left;
 }
 
 .links{
     padding: 10px;
     color: darkblue;
     font-size:medium;
+
 }
+
