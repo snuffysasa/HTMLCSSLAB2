@@ -12,7 +12,7 @@ body {
 
 
 #header {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     width: 90%;
     height: 280px;
     background-color: #FF5F49;
@@ -32,7 +32,7 @@ body {
 }
 
 #sidebar {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
     width: 15%;
     min-width: 210px;
