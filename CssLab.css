@@ -1,26 +1,50 @@
 /* Snuffy Linder and Tom Harren    Lab 2*/
 
+
 body {
     background-color: #B25B4E;
     color: dimgrey;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
 }
 
-#sidebar, .body_blocks{
-    margin-top: 50px;
+div, #footer{
+      margin-top: 50px;
+      margin-left: 50px;
+      float: left;
 }
 
+#header h1{
+    /* This text-shadow effect is an effect that is not
+    supported in Internet Explorer 9 and earlier versions*/
+    text-shadow: 5px 5px 5px #FF0000;
+}
 
-#header {
-    font-family: Arial, Helvetica, sans-serif;
+a:visited {
+    color: dimgrey;
+}
+
+a:hover {
+    color:blanchedalmond;
+}
+
+#header, #footer{
     width: 90%;
-    height: 280px;
+    min-width: 900px;
+    margin-right: 50px;
     background-color: #FF5F49;
     color: blanchedalmond;
-    font-size:xx-large;
-    margin-left: 50px;
-    margin-right: 100px;
-    text-align: center;
+
+}
+#header{
+    height: 280px;
+    font-size:x-large;
+}
+
+#footer{
+    height: 200px;
+    font-size:medium;
 }
 
 #header_image {
@@ -32,34 +56,45 @@ body {
 }
 
 #sidebar {
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    width: 15%;
-    min-width: 210px;
-    background-color: blanchedalmond;
-    color: darkblue;
-    font-size:xx-large;
+    width: 200px;
     margin-left: 50px;
-    text-align: left;
-
+    color: blanchedalmond;
+    font-size:xx-large;
 }
 
-#sound_info{
-max-width: 300px;
+#welcome_block{
+    width: 60%;
+    clear: right;
 }
 
+#poem_block{
+    width: 50%;
+    clear: right;
+}
+
+#audio_block{
+    width: 20%;
+    min-width: 300px;
+    clear: right;
+}
+
+#kitten{
+    width: 100%;
+    padding-top: 15px;
+
+}
 
 .body_blocks {
-    margin-left: 50px;
     padding: 15px;
     background-color:lightsalmon;
-    float: left;
 }
 
 .links{
-    padding: 10px;
+    padding: 5px 40px;
     color: darkblue;
     font-size:medium;
+    background: #5EFF95;
+    border-radius:10px 100px;
 
 }
 
