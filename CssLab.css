@@ -21,6 +21,10 @@ div, #footer{
     text-shadow: 5px 5px 5px #FF0000;
 }
 
+a{
+    text-decoration:none;
+}
+
 a:visited {
     color: dimgrey;
 }
@@ -43,12 +47,12 @@ a:hover {
 }
 
 #footer{
-    height: 200px;
+    height: 280px;
     font-size:medium;
 }
 
 #header_image {
-    float:left;
+    float: left;
     height: 90%;
     padding: 3px;
     margin: 8px;
@@ -69,7 +73,7 @@ a:hover {
 
 #poem_block{
     width: 50%;
-    clear: right;
+    clear: left;
 }
 
 #audio_block{
@@ -80,8 +84,19 @@ a:hover {
 
 #kitten{
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
+    float: left;
+}
 
+#footer_kitten{
+    height: 100%;
+    float: left;
+}
+
+
+.contact_info{
+    float: left;
+    width: 20%
 }
 
 .body_blocks {
@@ -95,6 +110,7 @@ a:hover {
     font-size:medium;
     background: #5EFF95;
     border-radius:10px 100px;
+
 
 }
 
