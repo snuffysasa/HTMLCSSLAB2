@@ -116,16 +116,17 @@
 
 <div class="body_blocks" id="audio_block">
 <h2>Let ambient sounds enhance your browsing experience!</h2>
-    <!--Internet Explorer 8 and earlier versions, do not support the <audio> tag.
-     We were searching for a file online to work with this tag, and we discovered a
-     .oga file on Wikipedia. It may incompatible on some systems.-->
+    <!--Internet Explorer 8 and earlier versions, do not support the <audio> tag.-->
     <audio controls id="audio_clip">
-        <source src="http://upload.wikimedia.org/wikipedia/commons/d/db/Purring_cat.oga" >
+        <source src="http://upload.wikimedia.org/wikipedia/commons/d/db/Purring_cat.oga" type="audio/ogg">
+        <source src="http://ronsen.org/purrfectsounds/purrs/max.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
     <p>
-        Enjoy this purring! This audio player is an HTML5 element with an audio file discovered on Wikipedia.<br />
+        Enjoy this purring! This audio player is an HTML5 element with an audio file discovered on Wikipedia and a backup file from
+        <a href="http://ronsen.org/purrfectsounds/" id="small_link"> here.</a>
+        <br />
     </p>
 
     <a href="http://upload.wikimedia.org/wikipedia/commons/d/db/Purring_cat.oga" class="links">Ambient Audio Source Page</a>
